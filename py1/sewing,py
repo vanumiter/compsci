@@ -1,0 +1,26 @@
+print(
+"""
+*********************************
+Welcome to Lucy's Sewing Shop.
+type 1 for curtains.
+type 2 for cushion covers.
+type 3 for quilts.
+*********************************"""
+)
+
+while True:
+    input = input("Enter a number: ")
+    if int(input) == 1:
+        print("you chose a curtain")
+        break
+    elif int(input) == 2:
+        print("you chose a cushion covers")
+        break
+    elif int(input) == 3:
+        print("you chose a quilts")
+        break 
+    else:
+        print("Invalid input.")
+
+
+
