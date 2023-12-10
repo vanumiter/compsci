@@ -8,19 +8,19 @@ type 3 for quilts.
 *********************************"""
 )
 
-while True:
-    input = input("Enter a number: ")
-    if int(input) == 1:
-        print("you chose a curtain")
-        break
-    elif int(input) == 2:
-        print("you chose a cushion covers")
-        break
-    elif int(input) == 3:
-        print("you chose a quilts")
-        break 
-    else:
-        print("Invalid input.")
+choice = int(input("Enter a number: "))
+
+while choice < 0 or choice > 3:
+    print("Invalid input.")
+    choice = int(input("Enter a number: "))
+
+if choice == 1:
+    print("you chose a curtain")
+elif choice == 2:
+    print("you chose a cushion covers")
+elif choice == 3:
+    print("you chose a quilts") 
+
 
 
 
