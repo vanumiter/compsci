@@ -12,8 +12,7 @@ for i in range(7):
         outlier_length.append(rain)
         outlier_day.append(i+1)
 
-for day in rain_week:
-    total_rain+=day
+    total_rain += rain
 
 # average rainfall = total_rain / 7
 
