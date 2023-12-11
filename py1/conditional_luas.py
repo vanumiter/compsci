@@ -6,7 +6,7 @@ Enter your choice: '''))
 if choice == "A":
     print("Your destination will be \"Dundrum Shoping Centre\".")
 elif choice == "B":
-    print("Your destination will be Tallaght rip bozo 💀")
+    print("Your destination will be Tallaght 💀💀💀💀")
 elif choice == "C":
     print("Your destination will be \"Broombridge\".")
 else:
