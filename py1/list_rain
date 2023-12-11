@@ -33,5 +33,3 @@ if len(outlier_length) != 0: # runs code if outlier list isn't empty
     else:
         print(f"On day {outlier_day[0]}, the rainfall exceeded 3.5 cm.")
         print(f"The rainfall on that day was {outlier_length[0]} cm.")
-else:
-    pass
